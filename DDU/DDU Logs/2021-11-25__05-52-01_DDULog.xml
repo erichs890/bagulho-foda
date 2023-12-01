@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.3.5">
+	<LogEntries>
+		<Event>
+			<Time>11/25/2021 5:52:01 AM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>C:\Users\coquetel\Desktop\ggos tweaks\DDU\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>C:\Users\coquetel\Desktop\ggos tweaks\DDU\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>C:\Users\coquetel\Desktop\ggos tweaks\DDU\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>C:\Users\coquetel\Desktop\ggos tweaks\DDU\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>C:\Users\coquetel\Desktop\ggos tweaks\DDU\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Not found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\Windows\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\Windows\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\Windows\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Error>
+			<Time>11/25/2021 5:52:05 AM</Time>
+			<Message>System Restored Point could not be Created!</Message>
+			<ExceptionData>
+				<Message>Unable to load DLL 'srclient.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)</Message>
+				<TargetSite>SRSetRestorePoint</TargetSite>
+				<Source>Display Driver Uninstaller</Source>
+				<StackTrace>   at Display_Driver_Uninstaller.Win32.SystemRestore.SRSetRestorePoint(IntPtr pRestorePtSpec, IntPtr pSMgrStatus)
+   at Display_Driver_Uninstaller.Win32.SystemRestore.EndRestore(Int64 lSeqNum) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\Win32\SystemRestore.vb:line 197
+   at Display_Driver_Uninstaller.frmSystemRestore.CreateSystemRestore() in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\frmSystemRestore.xaml.vb:line 39</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Event>
+			<Time>11/25/2021 5:52:05 AM</Time>
+			<Message>Restarting in safemode</Message>
+		</Event>
+		<Event>
+			<Time>11/25/2021 5:52:05 AM</Time>
+			<Message>Restarting Computer </Message>
+		</Event>
+		<Event>
+			<Time>11/25/2021 5:52:05 AM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+		<Event>
+			<Time>11/25/2021 5:52:05 AM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>
